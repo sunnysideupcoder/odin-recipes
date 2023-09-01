@@ -1,7 +1,49 @@
+#des{
+    color: rgba(190, 27, 27, 0.671);
+}
+#desb{
+    color: azure;
+}
 body{
-    color :green;
+    color :black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.24);
 }
 
-h1{
-    color:green;
+.header{
+    color:rgb(212, 27, 129);
 }
+
+#five{
+    background-color: white;
+}
+
+ol{
+    background-color: brown;
+}
+
+li{
+    font-size: large;
+}
+
+/* .header #five li{
+    font-weight: 900;
+} */
+/* .x{
+    font-weight: 100;
+} */
+
+
+body p {
+    font-style: italic;
+}
+
+/* Note: headers are NOT ancestors of texts under them thus the following code does nothing*/
+h2 p{
+    font-weight: bolder;
+}
+
+ol .x {
+    font-weight: 100;
+}
+
